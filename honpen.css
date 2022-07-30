@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+
+header {
+    height: 10%;
+}
+
+#timer {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 900;
+    color: lightgreen;
+    -webkit-text-stroke: 2px #FFF;
+    text-stroke: 2px #FFF;
+}
+
+main {
+    height: 80%;
+}
+
+#move-title {
+    font-family: sans-serif;
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+    margin: auto;
+    -webkit-text-stroke: 2px #FFF;
+    text-stroke: 2px #FFF;
+}
+
+footer {
+    height: 10%;
+    width: 100%;
+}
+
+#remaining-bar-bg {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#remaining-bar-fg {
+    height: 100%;
+    background-color: greenyellow;
+}
