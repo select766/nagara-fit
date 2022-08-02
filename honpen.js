@@ -130,10 +130,13 @@ function main() {
   document.getElementsByTagName(
     "body"
   )[0].style.height = `${window.innerHeight}px`;
-  console.log("main");
-  schedule.push(...firstMoves);
-  currSchedule = popNextSchedule();
-  setInterval(incrTick, 1000);
+  document.getElementById("tap-to-start").addEventListener("click", () => {
+    document.getElementById("tap-to-start").style.display = "none";
+    console.log("main");
+    schedule.push(...firstMoves);
+    currSchedule = popNextSchedule();
+    setInterval(incrTick, 1000);
+  });
 }
 
 window.addEventListener("load", main);
